@@ -16,3 +16,14 @@
     HTML / CSS / Javascript로 이루어진 원본 파일을 복사해서 클라이언트에게 넘겨준다.
     
     ![클라이언트-서버관계](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f4770f1b-1509-4e69-b971-1cd5ceb258a6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220125T110410Z&X-Amz-Expires=86400&X-Amz-Signature=6f4e0b36a59f763fba61322228b6ba9cdeb62a437b4514c1e837ae17db5cc2af&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+2. HTML, CSS
+    - HTML : 뼈대 / 위치 / 문자  
+    HTML은 head와 body로 나뉜다.
+        - body : 실질적인 내용 (meta, script, link, title)
+        - head :  body를 제대로 표현하기위해 필요한 것들 (페이지 속성/정보)
+    - HTML로 작성한 것을 브라우저가 그려준다.
+
+    - CSS : *HTML을 꾸미는* **세부적인 조절**
+        - 특정글자를 초록색으로 바꾼다 (⭕)  
+        어떤 초록색이 가장 예쁜가? (❌)  
+        예쁘게 만드는 부분은 *웹 디자이너와 웹 퍼블리셔의 영역*
