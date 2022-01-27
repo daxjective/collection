@@ -55,3 +55,20 @@
         `.mytitle > h1`
 
         mytitle 클래스를 가진 <u>**`<div>`안에 (>) 있는</u> `<h1>`**
+
+4. CSS 적용하기 - 배경
+    - `<body>` : 화면 전체를 나타냄  
+        `<body>`에 CSS 요소인 <u>`background` 속성</u>을 적용하면  
+        **화면 전체에** 테마가 적용된다.
+        
+    - 이미지 배경화면 구성  
+        어떤 이미지, 어느 위치, 반복해서 넣을 것인지를 명시해야 한다. 
+
+        - `background-image` :  배경에 이미지 삽입  
+        url('') : 어떤 이미지 파일인지 작성
+        
+        - `background-position` : background-image의 위치 조절  
+        원하는 위치에 이미지를 배치하기 위한 속성
+        
+        - `background-repeat` : 배경에 이미지 반복을 설정  
+        `no-repeat` 속성 값 : 이미지를 반복하지 않음
