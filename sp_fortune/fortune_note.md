@@ -72,3 +72,12 @@
         
         - `background-repeat` : 배경에 이미지 반복을 설정  
         `no-repeat` 속성 값 : 이미지를 반복하지 않음
+5. 폰트 입히기  
+    - 폰트 다운로드 ([구글웹폰트](https://fonts.google.com/?subset=korean))  
+    `<link>` 이용해서 필요한 폰트 파일들을 알아서 웹 브라우저가 다운로드 해준다.  
+    `<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap rel="stylesheet">`
+
+    - CSS 적용  
+    폰트를 다운받아도 ‘누구를’ ‘어떻게’ 바꾸라는 명령이 없다면 브라우저는 알아듣지 못한다.  
+        - ‘모든 태그(*)를 이 폰트(font-family)로 바꿔라’  
+    `* {font-family: 'Yeon Sung', cursive;}`
