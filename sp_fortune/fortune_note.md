@@ -81,3 +81,21 @@
     폰트를 다운받아도 ‘누구를’ ‘어떻게’ 바꾸라는 명령이 없다면 브라우저는 알아듣지 못한다.  
         - ‘모든 태그(*)를 이 폰트(font-family)로 바꿔라’  
     `* {font-family: 'Yeon Sung', cursive;}`
+6. CSS 적용하기 - 원형 배치
+    - a 태그  
+    href : 클릭했을 때 어디로 보낼 것인가  
+    href ="#" : 그대로 있어라 (#)
+        - 글자를 표현하는 태그  
+        실제로 적힌 글자가 없어도 공간을 차지하려면
+        1️⃣ `display : block;`  
+        2️⃣ `width` 가로 설정  
+        3️⃣ `height` 높이 설정
+
+    - flex 속성  
+    특정 div안에 있는 요소들을 정렬할때 사용  
+    1️⃣ `display : flex;`  
+    2️⃣ `flex-direction : row / column;`  
+    3️⃣ `justified-content : center;`  
+    - `flex-wrap: wrap;`  
+    각각의 요소들이 기존의 넓이를 갖도록 한다.  
+    브라우저 가로-길이 변동에 따라 줄바꿈이 된다.
