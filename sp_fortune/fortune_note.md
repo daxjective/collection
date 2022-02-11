@@ -99,3 +99,13 @@
     - `flex-wrap: wrap;`  
     각각의 요소들이 기존의 넓이를 갖도록 한다.  
     브라우저 가로-길이 변동에 따라 줄바꿈이 된다.
+1. CSS 적용하기 - 배경 이미지 삽입
+    - div 중앙 배치   
+    `margin: auto;` margin 값을 동일하게 가져라  
+    = 버튼을 담고 있는 div 너비 이외의 나머지 영역의 왼쪽-오른쪽을 동등하게 가져라
+
+    - 요소의 배경 이미지  
+    영역에 특정 이미지를 백그라운드에 꽉 차게 넣고 싶다면  
+    1️⃣ `background-image : url('');`  
+    2️⃣ `background-size : cover;`  
+    3️⃣ `background-position : center;`
