@@ -109,3 +109,10 @@
     1️⃣ `background-image : url('');`  
     2️⃣ `background-size : cover;`  
     3️⃣ `background-position : center;`
+1. hover 적용하기
+    - `:hover` 특정 대상에 마우스를 올렸을 때
+    ```CSS
+    .rtans > a:hover {
+        background-color : darkred;
+    }
+    ```
