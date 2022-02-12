@@ -116,3 +116,12 @@
         background-color : darkred;
     }
     ```
+1. hover - 글자 나타내는 효과
+    - `button`처럼 구성된 `<a>` 글자 작성이 가능하다.   
+    - `<a>` 기본 배경색 `background-color:white;`  
+    글자 색상 지정  `color:white`  
+    마우스 올렸을 때(hover) `background-color:darkred;`   
+    > 배경색 변경으로 hover 상태에서만 글자가 보이는 방식  
+    
+    > hover 상태가 아닌 경우,
+    > 배경색과 글자색이 같아서 글자가 화면에 나타나지 않음
