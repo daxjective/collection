@@ -95,7 +95,7 @@
     특정 div안에 있는 요소들을 정렬할때 사용  
     1️⃣ `display : flex;`  
     2️⃣ `flex-direction : row / column;`  
-    3️⃣ `justified-content : center;`  
+    3️⃣ `justify-content : center;`  
     - `flex-wrap: wrap;`  
     각각의 요소들이 기존의 넓이를 갖도록 한다.  
     브라우저 가로-길이 변동에 따라 줄바꿈이 된다.
@@ -139,3 +139,14 @@
     > 글 색상, 정렬을 위해 명찰(class)을 통해 CSS 처리 !
     - `<br>` : 채팅방에서 치는 enter 키와 같은 줄바꿈 기능  
     - `line-height` : 줄간 간격 속성  
+1. 버튼 배치하기  
+    - 수평으로 배치  
+    `<div>` 안에 `<button>` 두 개를 넣는다.
+    - 가운데 정렬  
+    `<div>` 태그 안에 있는 내용물 `<button>`들을 가운데 정렬  
+    1️⃣ `display : flex;`  
+    2️⃣ `justify-content : center;`  
+    3️⃣ `flex-direction : row;`  
+    - 버튼 꾸미기  
+    `cursor: pointer;` 마우스 모양이 포인터 모양으로 표현  
+    사용자 입장에서 클릭 여부를 확인할 수 있다.  
