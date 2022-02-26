@@ -163,3 +163,31 @@
     - `flex-wrap: wrap;` : 'display: flex' 인 경우에만 동작  
     'flex-wrap' 속성으로 버튼의 사이즈 `width:150px` 그대로 유지되고  
     한 줄에 못 들어가는 버튼은 아랫줄로 배치되면서 한 줄에 2-3개로 보인다.  
+14. javascript
+- #### javascript 작성위치
+    css는 `<style>`에 작성  
+    javascript는 `<script>`에 작성
+- #### 동작원리 
+    `function back() { alert('뒤로가기!'); }`  
+    지정한 동작을 실행하도록 저장하는 함수 (function)  
+    `onclick="back();"`  
+    해당 버튼이 클릭(onclick)되면 back 함수를 ‘실행’하라는 명령  
+- #### 실제 화면을 뒤로가게 하는 ‘뒤로가기JS’
+    ```javascript
+    let url = window.location.href;
+    let new_url = url.split('result.html')[0] + 'index.html';
+    window.location.href = new_url;```
+- #### 링크를 복사하는 ’공유하기JS’ 
+    ```javascript
+    var t = document.createElement("textarea");
+    document.body.appendChild(t);
+    t.value = window.location.href;
+    t.select();
+    document.execCommand('copy');
+    document.body.removeChild(t);
+    alert('복사 완료!');
+    ```
+- #### 자바스크립트 적용 순서 
+1. script 태그에 원하는 함수 정의 
+2. onclick 옵션에 함수명 작성 
+3. 함수안에 코드를 작성하면 실행 됨  
