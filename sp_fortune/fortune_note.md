@@ -86,7 +86,7 @@
     href : 클릭했을 때 어디로 보낼 것인가  
     href ="#" : 그대로 있어라 (#)
         - 글자를 표현하는 태그  
-        실제로 적힌 글자가 없어도 공간을 차지하려면
+        실제로 적힌 글자가 없어도 공간을 차지하려면  
         1️⃣ `display : block;`  
         2️⃣ `width` 가로 설정  
         3️⃣ `height` 높이 설정
@@ -187,10 +187,10 @@
     document.body.removeChild(t);
     alert('복사 완료!');
     ```
-- #### 자바스크립트 적용 순서 
-1. script 태그에 원하는 함수 정의 
-2. onclick 옵션에 함수명 작성 
-3. 함수안에 코드를 작성하면 실행 됨  
+- #### 자바스크립트 적용 순서  
+    1️⃣ script 태그에 원하는 함수 정의  
+    2️⃣ onclick 옵션에 함수명 작성  
+    3️⃣ 함수안에 코드를 작성하면 실행 됨  
 ### 15. 띠 별 메시지 만들기 
 1개의 페이지에서 12가지 화면을 보여줄 수 있도록 [자바스크립트](./newyear.js)로 처리한다. 
 - #### 해당 띠의 메시지만 보여주기
@@ -203,3 +203,5 @@
 해당 페이지의 HTML 태그에서 og:image / og:title / og:description가 존재한다면 섬네일로 보여준다.   
 ✔ head 태그 안에 있는 meta 태그들에 대한 정보들로 섬네일을 만든다.  
 - Image Icon (favicon) : `<link rel="shortcut icon"`  
+### End. 작업물 배포하기 
+[✨HAPPY NEW YEAR✨](https://new-year.spartacodingclub.kr/ldYAOHDz8Mz4/index.html)
