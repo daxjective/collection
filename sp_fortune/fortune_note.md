@@ -197,3 +197,9 @@
     하나의 html에서 여러 운세 결과가 보여야 하기에 결과 메시지를 모두 준비한다.
     - `display:none;` : msg라는 동일한 명찰(class)을 갖고 있는 모든 운세 메시지를 가린다.  
     이후에 자바스크립트가 해당 띠에 관한 메시지만 보이게 처리 (display:block;)  
+### 16. 공유를 위한 기초작업
+페이지 공유 시 링크와 함께 전달되는 이미지와 텍스트 구현 
+- Thumnail Image : `<meta property="og:image"`  
+해당 페이지의 HTML 태그에서 og:image / og:title / og:description가 존재한다면 섬네일로 보여준다.   
+✔ head 태그 안에 있는 meta 태그들에 대한 정보들로 섬네일을 만든다.  
+- Image Icon (favicon) : `<link rel="shortcut icon"`  
