@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- bootstrap min.js는 jquery하단에 위치한다! -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container" style="padding-top:50px">
+
+        <!--nav theme color-->
+        <nav class="navbar navbar-inverse">
+        <!-- <nav class="navbar navbar-default"> 흰색(기본) -->
+        <!-- <nav class="navbar navbar-inverse"> 다크(색상반전) -->
+
+                <div class="container-fluid">
+                <!-- header -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        navigation
+                    </a>
+                </div>
+
+                <!-- collapse : 메뉴  -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- <li> : 메뉴 추가  -->
+                        <li class="active">
+                            <a href="">HTML</a>
+                        </li>
+                        <li>
+                            <a href="">CSS</a>
+                        </li>
+                        <li>
+                            <a href="">PYTHON</a>
+                        </li>
+                        <li>
+                            <a href="">Javascript</a>
+                        </li>
+                    </ul> 
+                </div>
+
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
