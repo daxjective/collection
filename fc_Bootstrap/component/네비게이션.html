@@ -19,16 +19,25 @@
         <!-- <nav class="navbar navbar-default"> 흰색(기본) -->
         <!-- <nav class="navbar navbar-inverse"> 다크(색상반전) -->
 
-                <div class="container-fluid">
+            <div class="container-fluid">
                 <!-- header -->
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
                         navigation
                     </a>
+                    <!-- 오른쪽 메뉴 버튼 : data-target 과 메뉴의 id를 맞춰서 연동 -->
+                    <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#nav_menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+
+                        <!-- bar의 개수에 따라 버튼 모양이 달라짐 -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
 
                 <!-- collapse : 메뉴  -->
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="nav_menu">
                     <ul class="nav navbar-nav">
                         <!-- <li> : 메뉴 추가  -->
                         <li class="active">
